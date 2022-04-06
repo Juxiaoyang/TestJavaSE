@@ -27,7 +27,6 @@ public class Test04 {
             /*for (int i = 0; i <ch.length ; i++) {
                 System.out.println(ch[i]);
             }*/
-            //System.out.println(len);
             //正确方式1：
             /*for (int i = 0; i <len ; i++) {
                 System.out.println(ch[i]);
