@@ -23,10 +23,18 @@ public class Test04 {
         int len = fr.read(ch);//有效长度
         //System.out.println(len);
         while(len!=-1){
-            for (int i = 0; i <ch.length ; i++) {
+            //错误方式
+            /*for (int i = 0; i <ch.length ; i++) {
                 System.out.println(ch[i]);
-            }
-            System.out.println(len);
+            }*/
+            //System.out.println(len);
+            //正确方式1：
+            /*for (int i = 0; i <len ; i++) {
+                System.out.println(ch[i]);
+            }*/
+            //正确方式2：
+            String str = new String(ch,0,len);
+            System.out.println(str);
             len = fr.read(ch);//有效长度
         }
 
