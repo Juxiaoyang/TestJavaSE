@@ -1,4 +1,4 @@
-package ITXiaoJu_Test05;
+package src.ITXiaoJu_Test05;
 
 /**
  * @Auther: ITXiaoJu
