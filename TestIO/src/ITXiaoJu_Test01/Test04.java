@@ -10,7 +10,7 @@ public class Test04 {
     //这是一个main方法，是程序的入口
     public static void main(String[] args) {
         //创建子类 的对象
-
+        System.out.println("hello world");
     }
 }
 
