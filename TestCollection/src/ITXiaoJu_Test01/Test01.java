@@ -43,6 +43,7 @@ public class Test01 {
         System.out.println(col.equals(col2));//true
         System.out.println(col==col2);// false 地址不一定相等
         System.out.println("是否包含元素17："+col2.contains(17));
+        System.out.println("hello world");
 
 
 
